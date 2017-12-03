@@ -1,4 +1,4 @@
-"""Project Euler Question 3
+"""Project Euler Question 4
 
 Question:
     A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is
