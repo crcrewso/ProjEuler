@@ -19,4 +19,21 @@ What is the value of the first triangle number to have over five hundred divisor
 
 """
 
-triangular_numbers = []
+import math
+
+number = 1
+max_divisors = 500
+
+while True:
+    triangular_number = sum(range(1, number))
+    divisors = 0
+    for i in range(1, triangular_number + 1):
+        if (triangular_number % i) == 0:
+            divisors += 1
+        if (i == int(math.sqrt(triangular_number)) and divisors < (max_divisors / 2)):
+            break
+    if divisors >= max_divisors:
+        print(number)
+        print(triangular_number)
+        exit()
+    number += 1
