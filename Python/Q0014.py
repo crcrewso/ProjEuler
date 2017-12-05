@@ -1,4 +1,4 @@
-"""Project Euler Question 13
+"""Project Euler Question 14
 
 The following iterative sequence is defined for the set of positive integers:
 
